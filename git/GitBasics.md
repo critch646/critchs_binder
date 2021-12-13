@@ -1,14 +1,4 @@
-# Version Control
-Teams of developers working on large collections of files for multiple programs supporting multiple version on multiple platforms.
-* Coordination problems are huge
-* Want a tool that keeps track of all the "current" versions of each file
-* Establish checkpoints
-* Look up file contents by:
-	- When modified
-	- Who modified
-	- Keywords
-
-## Git
+# Git
 Regards a project as entirely contained in the same directory (repo).
 * `$ git init`   # creates a .git directory with all the info about the repo.
 * Want to be able to specify what files we want to store updated info about the repo.
