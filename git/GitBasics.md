@@ -1,4 +1,4 @@
-# Git
+# Git Basics
 Regards a project as entirely contained in the same directory (repo).
 * `$ git init`   # creates a .git directory with all the info about the repo.
 * Want to be able to specify what files we want to store updated info about the repo.
