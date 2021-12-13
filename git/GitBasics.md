@@ -28,6 +28,7 @@ Suppose I've edited a file locally, X, and added and committed, and X has change
 	* merge manually
 + `$ git merge [instructor] [master]`
 
+## Branches
 We may need to support multiple versions of a project. I want to be able to switch between the different versions.
 * right now give me the files for version 2
 * We want to be able to create versions and swap between them
@@ -36,9 +37,13 @@ We may need to support multiple versions of a project. I want to be able to swit
 		+ **Do a `$ git status` before branch checkout and do any necessary adds/commits**
 	- `$ git branch` lists branches
 	- `$ git merge [other branch]` merges other branch into current branch
+
+## Viewing Commits
 * gui tool `gitk` lets you explore commits and state of files.
 * text version
-	- `# git log --graph --pretty --branches`
+	- `$ git log --graph --pretty --branches`
+
+## Pushing ALL Branches
 * `$ git push origin --all` pushes all of your branches
 
 ## Deleting Branches
