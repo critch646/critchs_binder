@@ -41,4 +41,11 @@ We may need to support multiple versions of a project. I want to be able to swit
 	- `# git log --graph --pretty --branches`
 * `$ git push origin --all` pushes all of your branches
 
-
+## Deleting Branches
+* Often as our project continues along and we create branches to squash a bug or implement a feature.
+* After we are done it is a good idea to delete your unused branches to make your repo more managable.
+* `$ git branch -d <branch name>` will delete your local branch
+* `$ git push <remote> --delete <branch>` will delete the branch at the remote site.
+* Alternatively, you can delete a remote branch using `git push <remote> :<branch>`
+* You will want to synchronize your branch list, so it is a good idea to prune using:
+	- `$ git fetch -p` 
