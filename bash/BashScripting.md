@@ -314,7 +314,7 @@ fi
 # Display chunk from the middle of a text file given a filename and two line numbers as command line arguments.
 # Display the chunk of text file between these lines.
 
-if [ $# -new 3 ] ; then 
+if [ $# -new 3 ] ; then
 	echo "Correct usage is:"
 	echo "$0 [filename] [startline] [endline]"
 else
@@ -336,10 +336,8 @@ else
 		else
 			echo "${startline} is not less than ${endline}"
 		fi
-	fi
 	else
 		echo "${filename} not found"
-	fi
 fi
 ```
 
