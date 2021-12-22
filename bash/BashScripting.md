@@ -277,7 +277,7 @@ Find all the files in a directory and its subdirectories that have changed in th
 # Take directory and number of hours as cmd line args
 # example: ./findRecent.sh ~/csci265 24
 
-if [ $# -new 2 ] ; then
+if [ $# -ne 2 ] ; then
 	echo "correct usage is:"
 	echo "$0 [directory] [number of hours]"
 else
@@ -288,9 +288,9 @@ else
 	
 	((minutes=hours * 60))
 
-	if [ -d ${directory} ] ; then
+	if [ -d "${directory}" ] ; then
 		echo "files change in that time:"
-		find ${directory} -type f -mmin -${minutes}
+		find "${directory}" -type f -mmin -"${minutes}"
 	else
 		echo "invalid directory ${directory}"
 	fi
