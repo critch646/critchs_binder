@@ -332,7 +332,7 @@ else
 			N=0
 			# Calculate the difference
 			(( N=endline + 1 - startline ))
-			head -n ${endline ${filename} | tail -n ${N}
+			head -n ${endline} ${filename} | tail -n ${N}
 		else
 			echo "${startline} is not less than ${endline}"
 		fi
