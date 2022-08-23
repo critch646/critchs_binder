@@ -8,7 +8,7 @@ There are two primary branches and they do not get removed from the repo: `maste
 We designate the `master` branch for code ready for production only. The current `HEAD` of `origin/master` will be tagged with the current release number.
 
 ### Develop Branch
-The `develop` branch is where most of the work will be done and integrated. When `develop` reaches a stable point, the changes will be merged into `master` and the new `HEAD` of `master` will be tagged with a release number. ** Only production-ready code is to be merged into `master`. **
+The `develop` branch is where most of the work will be done and integrated. When `develop` reaches a stable point, the changes will be merged into `master` and the new `HEAD` of `master` will be tagged with a release number. **Only production-ready code is to be merged into `master`.**
 
 ## Supporting Branches
 There are three support branches and each are used for a specific and logical purpose. They have rules for which branches they originate from as well as where they get merge into.
